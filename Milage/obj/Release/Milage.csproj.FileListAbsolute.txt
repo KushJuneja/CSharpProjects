@@ -1,0 +1,7 @@
+C:\Users\kushj\source\repos\Milage\bin\Release\Milage.exe.config
+C:\Users\kushj\source\repos\Milage\bin\Release\Milage.exe
+C:\Users\kushj\source\repos\Milage\bin\Release\Milage.pdb
+C:\Users\kushj\source\repos\Milage\obj\Release\Milage.csproj.AssemblyReference.cache
+C:\Users\kushj\source\repos\Milage\obj\Release\Milage.csproj.CoreCompileInputs.cache
+C:\Users\kushj\source\repos\Milage\obj\Release\Milage.exe
+C:\Users\kushj\source\repos\Milage\obj\Release\Milage.pdb

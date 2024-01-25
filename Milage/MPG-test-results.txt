@@ -1,0 +1,38 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240109120251
+Username: DESKTOP-9LH0U8U\kushj
+RunAs User: DESKTOP-9LH0U8U\kushj
+Configuration Name: 
+Machine: DESKTOP-9LH0U8U (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -Command & { Import-Module 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'; Enter-VsDevShell -SetDefaultWindowTitle -InstallPath 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise' -StartInPath 'C:\Users\kushj\source\repos\Milage' }
+Process ID: 11960
+PSVersion: 5.1.22000.2538
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.2538
+BuildVersion: 10.0.22000.2538
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is MPG-test-results.txt
+PS C:\Users\kushj\source\repos\Milage> .\bin\Debug\Milage.exe
+*********************************************************************************************
+********************** Welcome to the Amazing TINFO-200 Trip Calculator *********************
+
+This program will calculate fuel efficiency for a typical gasoline automobile between visits to
+the gas station. We hope you like the results and find it easy way to keep track of your cardbon
+footprint. You will be led through the input of your data - follow the instructions and examples below:
+
+Enter the number of miles for this trip (ex: 310, 297, etc.)? 300
+Enter the number of gallons for this trip (ex: 12.6 , 19.4, etc.)? 10
+
+The results of your trip of 300 miles that used 10 gallons is a fuel efficiency of 30 miles per gallon.
+
+Thanks for using the amazing TINFO-200 Calculator! Tell your freinds!
+PS C:\Users\kushj\source\repos\Milage> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240109120313
+**********************
