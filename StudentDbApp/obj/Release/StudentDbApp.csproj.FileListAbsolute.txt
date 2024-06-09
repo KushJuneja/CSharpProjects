@@ -1,0 +1,7 @@
+C:\Users\kushj\source\repos\StudentDbApp\bin\Release\StudentDbApp.exe.config
+C:\Users\kushj\source\repos\StudentDbApp\bin\Release\StudentDbApp.exe
+C:\Users\kushj\source\repos\StudentDbApp\bin\Release\StudentDbApp.pdb
+C:\Users\kushj\source\repos\StudentDbApp\obj\Release\StudentDbApp.csproj.AssemblyReference.cache
+C:\Users\kushj\source\repos\StudentDbApp\obj\Release\StudentDbApp.csproj.CoreCompileInputs.cache
+C:\Users\kushj\source\repos\StudentDbApp\obj\Release\StudentDbApp.exe
+C:\Users\kushj\source\repos\StudentDbApp\obj\Release\StudentDbApp.pdb

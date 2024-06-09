@@ -1,0 +1,373 @@
+Student DB App Test 1:
+
+PS C:\Users\kushj\source\repos\StudentDbApp> .\bin\Debug\StudentDbApp.exe
+
+Adding new student:
+******** Student Rec ********
+First: Alice
+Last: Anderson
+Email: aanderson@uw.edu
+GPA: 4.00
+Year: Junior
+Major: BSIT
+
+Adding new student:
+******** Student Rec ********
+First: Bob
+Last: Bradhsaw
+Email: bbradshaw@uw.edu
+GPA: 3.50
+Credit: 11111.11
+Advisor: Dr. Donald Chinn
+
+Adding new student:
+******** Student Rec ********
+First: Carlos
+Last: Castaneda
+Email: ccastaneda@uw.edu
+GPA: 2.50
+Year: Sophomore
+Major: Psychology
+
+Adding new student:
+******** Student Rec ********
+First: David
+Last: Davis
+Email: ddavis@uw.edu
+GPA: 1.50
+Credit: 22222.22
+Advisor: Dr. Ankur Teredesai
+
+Adding new student:
+******** Student Rec ********
+First: Chuck
+Last: Costarella
+Email: chuck@uw.edu
+GPA: 2.50
+Credit: 22999.99
+Advisor: Dr. Sam Chung
+
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+a
+ENTER the email address (primary key) to search for: kushjune@uw.edu
+kushjune@uw.edu NOT FOUND
+ENTER first name: Kush
+ENTER last name: Juneja
+ENTER GPA: 2.5
+[U]ndergrad or [G]rad Student: U
+[1]Freshman, [2]Sophomore, [3] Junior, [4]Senior
+ENTER the year in school for this student:
+3
+ENTER the degree major: Information Technology
+Adding new student to the database:
+******** Student Rec ********
+First: Kush
+Last: Juneja
+Email: kushjune@uw.edu
+GPA: 2.50
+Year: Junior
+Major: Information Technology
+
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+f
+Enter the email address to search for: kushjune@uw.edu
+Student Record Found!
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+f
+Enter the email address to search for: kush123@uw.edu
+kush123@uw.edu NOT FOUND
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+m
+Enter the email address of the student to modify: kushjune@uw.edu
+Select the field to modify:
+1 - First Name
+2 - Last Name
+3 - GPA
+Enter your choice: 1
+Enter new First Name: Adam
+Student record updated successfully.
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+p
+********* List ALl Student Records *********
+
+******** Student Rec ********
+First: Alice
+Last: Anderson
+Email: aanderson@uw.edu
+GPA: 4.00
+Year: Junior
+Major: BSIT
+
+
+******** Student Rec ********
+First: Bob
+Last: Bradhsaw
+Email: bbradshaw@uw.edu
+GPA: 3.50
+Credit: 11111.11
+Advisor: Dr. Donald Chinn
+
+
+******** Student Rec ********
+First: Carlos
+Last: Castaneda
+Email: ccastaneda@uw.edu
+GPA: 2.50
+Year: Sophomore
+Major: Psychology
+
+
+******** Student Rec ********
+First: David
+Last: Davis
+Email: ddavis@uw.edu
+GPA: 1.50
+Credit: 22222.22
+Advisor: Dr. Ankur Teredesai
+
+
+******** Student Rec ********
+First: Chuck
+Last: Costarella
+Email: chuck@uw.edu
+GPA: 2.50
+Credit: 22999.99
+Advisor: Dr. Sam Chung
+
+
+******** Student Rec ********
+First: Adam
+Last: Juneja
+Email: kushjune@uw.edu
+GPA: 2.50
+Year: Junior
+Major: Information Technology
+
+********* Done Listing ALl Student Records *********
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+d
+Enter the email address of the student to delete: kushjune@uw.edu
+Student with email kushjune@uw.edu has been successfully deleted.
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+p
+********* List ALl Student Records *********
+
+******** Student Rec ********
+First: Alice
+Last: Anderson
+Email: aanderson@uw.edu
+GPA: 4.00
+Year: Junior
+Major: BSIT
+
+
+******** Student Rec ********
+First: Bob
+Last: Bradhsaw
+Email: bbradshaw@uw.edu
+GPA: 3.50
+Credit: 11111.11
+Advisor: Dr. Donald Chinn
+
+
+******** Student Rec ********
+First: Carlos
+Last: Castaneda
+Email: ccastaneda@uw.edu
+GPA: 2.50
+Year: Sophomore
+Major: Psychology
+
+
+******** Student Rec ********
+First: David
+Last: Davis
+Email: ddavis@uw.edu
+GPA: 1.50
+Credit: 22222.22
+Advisor: Dr. Ankur Teredesai
+
+
+******** Student Rec ********
+First: Chuck
+Last: Costarella
+Email: chuck@uw.edu
+GPA: 2.50
+Credit: 22999.99
+Advisor: Dr. Sam Chung
+
+********* Done Listing ALl Student Records *********
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+k
+********* List ALl Student Emails *********
+aanderson@uw.edu
+bbradshaw@uw.edu
+ccastaneda@uw.edu
+ddavis@uw.edu
+chuck@uw.edu
+********* Done Listing ALl Student Emails *********
+
+*************************************************
+************** StudentDatabase App **************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[A]dd a student record          (C in CRUD - Create)
+[F]ind a student record         (R in CRUD - Read)
+[M]odify student record         (U in CRUD - Update)
+[D]elete a student record       (D in CRUD - Delete)
+[P]rint all records
+Print all primary [K]eys (email addresses)
+[S]ave data to file and exit
+[E]xit without saving changes
+
+User Key Selection:
+sOutput Student data to the file using a foreach loop
+
+******** Student Rec ********
+First: Alice
+Last: Anderson
+Email: aanderson@uw.edu
+GPA: 4.00
+Year: Junior
+Major: BSIT
+
+
+******** Student Rec ********
+First: Bob
+Last: Bradhsaw
+Email: bbradshaw@uw.edu
+GPA: 3.50
+Credit: 11111.11
+Advisor: Dr. Donald Chinn
+
+
+******** Student Rec ********
+First: Carlos
+Last: Castaneda
+Email: ccastaneda@uw.edu
+GPA: 2.50
+Year: Sophomore
+Major: Psychology
+
+
+******** Student Rec ********
+First: David
+Last: Davis
+Email: ddavis@uw.edu
+GPA: 1.50
+Credit: 22222.22
+Advisor: Dr. Ankur Teredesai
+
+
+******** Student Rec ********
+First: Chuck
+Last: Costarella
+Email: chuck@uw.edu
+GPA: 2.50
+Credit: 22999.99
+Advisor: Dr. Sam Chung
+
+Done writing to the file - file has been closed..
